@@ -67,7 +67,7 @@ denoise_depth_use_octree_cloud: false
 octree_embed_base_voxel_size: 0.02
 octree_smallest_voxel_size: 0.02        # This determines the smallest feature vox size
 octree_raytracing_voxel_size: 0.02
-octree_dilate_size: 0.04           # meters
+octree_dilate_size: 0.04          # meters default is .04
 down_scale_ratio: 1
 bounding_box:
 - - -1

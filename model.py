@@ -343,6 +343,7 @@ class ArtiModel:
             input_ch_views = embeddirs_fn.out_dim
             models[f'{cnc_name}_embeddirs_fn'] = embeddirs_fn
 
+            # Check input size of model 
             model = NeRFSmall(num_layers=2, hidden_dim=64, geo_feat_dim=15, num_layers_color=3, hidden_dim_color=64,
                               input_ch=input_ch, input_ch_views=input_ch_views).to(device)
             model = model.to(device)

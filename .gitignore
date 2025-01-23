@@ -130,6 +130,9 @@ dmypy.json
 # Datasets
 data/
 logs/
+runs/
 
 .idea
+
+/external/LoFTR
 

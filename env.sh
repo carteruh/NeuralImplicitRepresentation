@@ -8,4 +8,5 @@ pip install pyyaml opencv-python imageio tqdm kornia yacs einops ruamel.yaml ope
 cd ${ROOT}/mycuda && rm -rf build *egg* && pip install -e .
 pip install git+https://github.com/marian42/mesh_to_sdf.git
 pip install kaolin==0.14.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-1.11.0_cu113.html
+# python -m pip install -U --no-deps kaolin==0.11.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-1.8.1_cu101.html 
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
